@@ -63,11 +63,14 @@ These results demonstrate that the optimal index selection depends on system con
 
 ---
 
+Conclusion
+
+This project demonstrates that Approximate Nearest Neighbor (ANN) algorithms are essential for scalable vector search systems. While exact search guarantees perfect accuracy, it becomes impractical at scale. ANN methods provide a strong balance between performance and accuracy, making them the standard choice in modern large-scale retrieval systems.
+
+---
+
 ## 🛠️ Requirements
 ```bash
 pip install faiss-cpu numpy matplotlib psutil
 
 
-Conclusion
-
-This project demonstrates that Approximate Nearest Neighbor (ANN) algorithms are essential for scalable vector search systems. While exact search guarantees perfect accuracy, it becomes impractical at scale. ANN methods provide a strong balance between performance and accuracy, making them the standard choice in modern large-scale retrieval systems.
